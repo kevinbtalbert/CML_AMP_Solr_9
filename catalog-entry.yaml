@@ -1,0 +1,16 @@
+name: Solr 9
+
+entries:
+  - title: Solr 9
+    label: solr-runtime
+    short_description: |
+      Run Solr 9 as an Application within an AMP. Installs necessary Solr and Java runtime components.
+    long_description: |
+      Run Solr 9 as an Application within an AMP. Installs necessary Solr and Java runtime components. By default, Solr 9.3.0 and Java 11.0.1 will be used.
+    image_path: "https://raw.githubusercontent.com/kevinbtalbert/CML_AMP_Solr_9/main/assets/amp-cover.png"
+    tags: 
+      - Solr 9
+      - Vector DB
+    git_url: "https://github.com/kevinbtalbert/CML_AMP_Solr_9"
+    is_prototype: true
+    

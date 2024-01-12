@@ -1,2 +1,4 @@
-# CML_AMP_Solr_9
-Deploy Solr 9 as a CML Application
+# Solr 9 in CML
+**Install and deploy Solr 9 and its dependencies to run as an application in CML**
+
+![](/assets/amp-cover.png)
