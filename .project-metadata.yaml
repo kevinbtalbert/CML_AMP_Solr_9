@@ -11,13 +11,20 @@ runtimes:
     edition: Standard
   
 tasks:
-  - type: run_session
-    name: Download/Install Solr
+  - type: create_job
+    name: Create Job to Download/Install Java and Solr
+    entity_label: install_dependencies
     script: solr/01_install-java11_n_solr.py
-    short_summary: Install Java 11
+    short_summary: Create Job to Download/Install Java and Solr
     kernel: python3
     cpu: 2
     memory: 4
+    environment:
+      TASK_TYPE: CREATE/RUN_JOB
+
+  - type: run_job
+    entity_label: install_dependencies
+    short_summary: Run Job to Download/Install Java and Solr
 
   - type: start_application
     name: Solr
